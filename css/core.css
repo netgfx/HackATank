@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#000;
+    overflow:hidden;
+}
+
+#content{
+  z-index: 9990;
+  width:10000px;
+  height:10000px;
+  position: fixed;
+}
+
+#bg{
+    width:10000px;
+    height:10000px;
+    background-image:url("../assets/bg/grass2.png");
+    background-repeat:repeat;
+    position: absolute;
+    overflow:hidden;
+}
+
+#console{
+  background-color:#010101;
+  width:300px;
+  height:220px;
+  border:3px solid #d3d3d3;
+  position:fixed;
+  z-index:9999;
+  overflow-y:hidden;
+  overflow-x:hidden;
+  left:0;
+  top:0;
+}
+
+.log{
+  background-color:#000000;
+  height:185px;
+  width:98%;
+  resize: none;
+  position:relative;
+  float:left;
+  color:limegreen;
+  overflow:hidden;
+}
+
+
+#console input{
+  position:relative;
+  width:99%;
+  background-color:#010101;
+  height:25px;
+  color:limegreen;
+  font-weight:500;
+  font-size:17px;
+}
+
+#minimap{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width:200px;
+  height:200px;
+  background-color:#495b1d;
+  background-image:url("../assets/bg/mgrass.png");
+  border:2px solid #d3d3d3;
+  z-index: 9999;
+}
+
+.minimap-frame{
+  width:40px;
+  height:40px;
+  border:1px solid #ff0000;
+  position:absolute;
+  left:0;
+  top:0;
+}
